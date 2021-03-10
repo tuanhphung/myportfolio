@@ -18,6 +18,7 @@ const AboutMe = () => {
           className='about-me__desc'
         >
           <h1 className='section-titles'>About Myself</h1>
+
           <div className='about-me__desc-content'>
             <p>
               An individual based in London with a passion for using web technologies to
