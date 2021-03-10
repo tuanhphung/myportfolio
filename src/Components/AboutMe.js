@@ -17,7 +17,7 @@ const AboutMe = () => {
           transition={{ duration: 0.7, delay: 0.5 }}
           className='about-me__desc'
         >
-          <h1 className='section-titles'>About Myself</h1>
+          <h1 className='section-titles'>About</h1>
           <div className='about-me__desc-content'>
             <p>
               An individual based in London with a passion for using web technologies to
