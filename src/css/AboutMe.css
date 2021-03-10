@@ -1,0 +1,19 @@
+#about-me-section {
+  overflow: hidden;
+}
+
+.about-me__desc h1 {
+  margin: 20px 0 0 0;
+}
+
+.about-me__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.about-me__desc-content {
+  width: 30%;
+}

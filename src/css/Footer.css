@@ -1,0 +1,20 @@
+#footer-section {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 209, 197);
+}
+
+.footer-section__icon_links ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-section__icon_links a {
+  cursor: pointer;
+}

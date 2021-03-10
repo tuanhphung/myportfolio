@@ -1,0 +1,83 @@
+#landing-section {
+  background-image: url("../assets/images/laptop.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  margin-bottom: 1px; /*1 pixel gap so that react-intersection-observer can read next section below as not  */
+}
+
+.landing-section__title {
+  text-align: center;
+  width: 30%;
+}
+
+.landing-section__icon_links {
+  overflow: hidden;
+}
+
+.landing-section__icon_links ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-section__icon_links a {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.arrow-down-container {
+  cursor: auto;
+}
+
+.arrow-down {
+  height: 50px;
+  width: 50px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.landing-section__icon,
+.social-links {
+  margin: 0 0.6em;
+  cursor: pointer;
+}
+
+.landing-section__goto {
+  font-size: 2em;
+  width: 130px;
+  height: 53px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.landing-section__goto div {
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1.5px #ffffff;
+  border-radius: 4px;
+}
+
+.landing-section__goto a {
+  text-decoration: none;
+}
+
+.landing-section__goto a:hover {
+  opacity: 0.5;
+}
+
+.landing-section__goto a:visited {
+  color: inherit;
+}
