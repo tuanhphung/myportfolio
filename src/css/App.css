@@ -27,3 +27,40 @@ body {
   font-weight: 600;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 812px) {
+  p {
+    font-size: 15px;
+  }
+  .section-titles {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .technologies-icons {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .project-card {
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .project-desc {
+    padding: 0 50px;
+  }
+}
