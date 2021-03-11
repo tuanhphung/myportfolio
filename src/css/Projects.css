@@ -25,16 +25,23 @@
   border: 1px whitesmoke solid;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 40px;
-  width: 55%;
+  width: 70%;
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 20px;
 }
 
 .project-desc__img {
+  display: flex;
+  align-items: center;
   width: 95%;
   text-align: center;
-  background-color: salmon;
+  border-radius: 10px;
+}
+
+.project-desc__img img {
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
