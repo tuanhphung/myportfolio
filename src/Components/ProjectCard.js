@@ -2,22 +2,23 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({ project }) => {
   return (
     <motion.div whileHover={{ scale: 1.1 }} className='project-card'>
       <div className='project-desc'>
-        <h3 className='project-desc__title'>{props.title}</h3>
+        <h3 className='project-desc__title'>{project.title}</h3>
         <hr />
-        <p>{props.children}</p>
+        {project.description}
+        {project.technologies}
         <div className='project-desc__links'>
           <ul>
             <li>
-              <a href={props.githublink} target='_blank'>
+              <a href={project.githublink} target='_blank'>
                 GitHub
               </a>
             </li>
             <li>
-              <a href={props.demolink} target='_blank'>
+              <a href={project.demolink} target='_blank'>
                 Demo
               </a>
             </li>
@@ -25,7 +26,7 @@ const ProjectCard = (props) => {
         </div>
       </div>
       <div className='project-desc__img'>
-        <img src={props.img} />
+        <img src={project.img} />
       </div>
     </motion.div>
   );

@@ -65,9 +65,9 @@
   background-color: rgb(192, 56, 56);
   color: white;
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.2s;
 }
 
 .project-desc__links a:hover {
-  background-color: blue;
+  background-color: #1a83ff;
 }
