@@ -12,10 +12,14 @@ const ProjectCard = (props) => {
         <div className='project-desc__links'>
           <ul>
             <li>
-              <a>GitHub</a>
+              <a href={props.githublink} target='_blank'>
+                GitHub
+              </a>
             </li>
             <li>
-              <a>Demo</a>
+              <a href={props.demolink} target='_blank'>
+                Demo
+              </a>
             </li>
           </ul>
         </div>

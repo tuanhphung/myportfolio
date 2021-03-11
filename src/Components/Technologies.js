@@ -51,7 +51,7 @@ const Technologies = () => {
         </motion.div>
       );
     }
-    return null;
+    return <div></div>;
   };
 
   return (

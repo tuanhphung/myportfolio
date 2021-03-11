@@ -32,7 +32,12 @@ const Projects = () => {
           className='projects-container'
         >
           <h1 className='section-titles'>Projects</h1>
-          <ProjectCard title='Portfolio' img={portfolioimg}>
+          <ProjectCard
+            title='Portfolio'
+            img={portfolioimg}
+            githublink='https://github.com/tuanhphung/myportfolio'
+            demolink='https://tuanhphung.netlify.app/'
+          >
             <p>
               This current porfolio was a remake of my old portfolio, which was built on a
               boilerplate.
