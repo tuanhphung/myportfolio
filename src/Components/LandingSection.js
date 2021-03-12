@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/LandingSection.css";
-import myCV from "../assets/CV/Phung_Tuan_CV.pdf";
+import myCV from "../assets/CV/Tuan_Phung_CV.pdf";
 //Material UI icons
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";

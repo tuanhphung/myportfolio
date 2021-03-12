@@ -48,13 +48,14 @@ const myprojects = [
           is added or removed.
         </p>
         <p>
-          This was built when learning vanilla JavaScript JavaScript around the Model View
-          Controller model (MVC), to seperate each sections of the code to handle
-          logic(Model), visually display data(View) and handle event listeners(Controller)
+          This was built when learning vanilla JavaScript around the Model View Controller
+          model (MVC). This seperates each sections of the code to handle logic (Model),
+          visually display data (View) and handle event listeners (Controller).
         </p>
         <p>
-          I aim to rebuild this project using the React in the future, as I have now
-          learnt the framework
+          I aim to refactor this project using the React framework in the future to apply
+          what I know and to help me understand its effectiveness of using the framework
+          to build apps over vanilla JS.
         </p>
       </div>
     ),
