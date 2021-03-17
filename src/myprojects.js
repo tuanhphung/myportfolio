@@ -1,5 +1,6 @@
 import portfolioimg from "./assets/projectimgs/portfolioSS.jpg";
 import budgetappimg from "./assets/projectimgs/budgetappSS.jpg";
+import youtubecloneimg from "./assets/projectimgs/youtubecloneSS.jpg";
 
 const myprojects = [
   {
@@ -25,7 +26,7 @@ const myprojects = [
       <div>
         <p>Technologies Used :</p>
         <ul>
-          <li>JavaScript / React</li>
+          <li>React.js</li>
           <li>CSS</li>
           <li>Framer-Motion</li>
           <li>React-Intersection-Observer </li>
@@ -71,6 +72,54 @@ const myprojects = [
     githublink: "https://github.com/tuanhphung/BudgetyApp",
     demolink: " ",
     img: budgetappimg,
+  },
+  {
+    title: "YouTube Clone",
+    description: (
+      <div>
+        <p>
+          A clone of the video sharing platform YouTube, built using React, Redux, and the
+          YouTube API.
+        </p>
+        <p>
+          <p>
+            My main focus for this project was utilising the functionality of the Redux
+            library on a web application, and understand how components connect and use
+            the Redux store.
+          </p>
+          I decided to test my knowledge of Redux by building an application that will
+          manage state through action creators and reducers.
+          <br />I decided that making a YouTube clone will be appropiate for this
+          challenge, since the API will retrieve data that will be used in multiple
+          components.
+          <p>
+            I wanted the app also to allow you to view your watch history and favourite
+            videos.
+            <br />
+            Therefore using Redux will reduce the use of 'props drilling' in to
+            components, and instead store all data in a centralised location where
+            componenets can directly connect to.
+          </p>
+        </p>
+      </div>
+    ),
+    technologies: (
+      <div>
+        <ul>
+          <li>React</li>
+          <li>YouTube API</li>
+          <li>CSS</li>
+          <li>React-Router</li>
+          <li>Redux</li>
+          <li>Redux-Thunk</li>
+          <li>React-Redux</li>
+          <li>Axios</li>
+        </ul>
+      </div>
+    ),
+    githublink: "https://github.com/tuanhphung/youtube-clone",
+    demolink: "https://tuan-myyoutubeclone.netlify.app/",
+    img: youtubecloneimg,
   },
 ];
 
