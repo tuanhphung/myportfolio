@@ -1,5 +1,6 @@
 #about-me-section {
   overflow: hidden;
+  font-size: inherit;
 }
 
 .about-me__desc h1 {
@@ -16,4 +17,10 @@
 
 .about-me__desc-content {
   width: 30%;
+}
+
+@media screen and (max-width: 812px) {
+  .about-me__desc-content {
+    width: 80%;
+  }
 }

@@ -14,7 +14,7 @@ const AboutMe = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.7, delay: 0.5 }}
+          transition={{ duration: 0.4 }}
           className='about-me__desc'
         >
           <h1 className='section-titles'>About Myself</h1>

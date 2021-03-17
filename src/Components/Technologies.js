@@ -51,7 +51,16 @@ const Technologies = () => {
         </motion.div>
       );
     }
-    return <div></div>;
+    return (
+      <div
+        variants={techVariants}
+        initial='hidden'
+        animate='visible'
+        className='container'
+      >
+        <ul className='technologies-list'>{renderIcons(icons)}</ul>
+      </div>
+    );
   };
 
   return (
