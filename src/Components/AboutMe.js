@@ -25,8 +25,9 @@ const AboutMe = () => {
               build products with user experience and functionality in mind.
             </p>
             <p>
-              Front-end developer eager to continuously improve on my skills by always
-              challenging myself and solving problems till my goal is achieved.
+              Front-end developer eager to continuously improve on my skillset by
+              challenging myself, working diligently to solve problems until my goals are
+              achieved.
             </p>
           </div>
         </motion.div>
