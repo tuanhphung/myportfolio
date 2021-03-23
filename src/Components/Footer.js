@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/Footer.css";
-import myCV from "../assets/CV/Tuan_Phung_CV.pdf";
+import myCV from "../assets/CV/TUAN_PHUNG_CV.pdf";
 
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
