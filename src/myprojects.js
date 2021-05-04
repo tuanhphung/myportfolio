@@ -1,6 +1,7 @@
 import portfolioimg from "./assets/projectimgs/portfolioSS.jpg";
 import budgetappimg from "./assets/projectimgs/budgetappSS.jpg";
 import youtubecloneimg from "./assets/projectimgs/youtubecloneSS.jpg";
+import pianilistimg from "./assets/projectimgs/pianilist.jpg";
 
 const myprojects = [
   {
@@ -120,6 +121,53 @@ const myprojects = [
     githublink: "https://github.com/tuanhphung/youtube-clone",
     demolink: "https://tuan-myyoutubeclone.netlify.app/",
     img: youtubecloneimg,
+  },
+  {
+    title: "Pianilist",
+    description: (
+      <div>
+        <p>
+          <p>
+            A React application that allows you to post piano music information and find
+            piano sheets in one place.
+          </p>
+          <p>
+            This project came about when my friend and myself started learning how to read
+            and play piano through music sheets. We would often share piano music and
+            sheets to eachother online, and would occasionally get confused which link to
+            the sheets refer to which piano piece.
+            <br />
+            Therefore I wanted to make a simple web application where we can share piano
+            music along with their piano sheets as entries that we can refer to.
+          </p>
+          <p>
+            This application uses Redux to store certain states, and utilises Google's
+            Firebase Realtime Database for CRUD operations. This allows the application to
+            listen and dynamically update the list as the database updates.
+            <br />
+            It also features tags for each entry that can filter between free and paid
+            sheets.
+          </p>
+        </p>
+      </div>
+    ),
+    technologies: (
+      <div>
+        <p>Technologies Used :</p>
+        <ul>
+          <li>React.js</li>
+          <li>Redux</li>
+          <li>CSS</li>
+          <li>Firebase Realtime Database & API</li>
+          <li>React-Router</li>
+          <li>React-Modal</li>
+          <li>Framer-Motion</li>
+        </ul>
+      </div>
+    ),
+    githublink: "https://github.com/tuanhphung/Pianilist",
+    demolink: "https://pianilist.netlify.app/",
+    img: pianilistimg,
   },
 ];
 
