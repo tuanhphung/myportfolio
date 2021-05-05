@@ -145,8 +145,8 @@ const myprojects = [
             Firebase Realtime Database for CRUD operations. This allows the application to
             listen and dynamically update the list as the database updates.
             <br />
-            It also features tags for each entry that can filter between free and paid
-            sheets.
+            It features tags for each entry that can filter between free and paid sheets
+            and toggle between light and dark themes.
           </p>
         </p>
       </div>
